@@ -4,8 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import HomePage from "./Views/Home page";
-// import HomePage from "./views/Home page";
+import HomePage from "./views/Home page";
 
 function App() {
   return (
