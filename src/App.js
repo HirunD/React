@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import HomePage from "./Views/Home page";
 // import HomePage from "./views/Home page";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact>
-
+          <HomePage />
         </Route>
         <Route path="/about" exact>
 
